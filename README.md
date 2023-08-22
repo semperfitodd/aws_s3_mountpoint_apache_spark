@@ -62,6 +62,7 @@ This takes about 5 minutes and goes directly into  tailing the spark container's
 
 ### Step 4: Validation
 Monitor the logs and verify the creation of random CSV files every 5 seconds in the S3 bucket, along with the processing done by Apache Spark.
+
 ![logs.gif](images%2Flogs.gif)
 
 ## Features
