@@ -1,6 +1,5 @@
-# Project Title
+# AWS S3 mountpoint with Apache Spark
 
-## Overview
 This proof of concept (POC) demonstrates a powerful integration between Terraform, Docker, and AWS S3. It automates the creation of a private and encrypted S3 bucket, the generation of random CSV files, and processing those files using Apache Spark within a Docker container.
 
 The solution leverages the new AWS S3 mountpoint functionality, allowing for efficient handling of vast amounts of data without the need for transferring it.
