@@ -45,6 +45,7 @@ terraform plan -out=plan.out
 terraform apply plan.out
 ```
 After applying the plan, you will receive the bucket name as output. Make sure to update the bucket name in both Dockerfiles.
+
 ![terraform_apply.png](images%2Fterraform_apply.png)
 
 ### Step 2: Docker Configuration
@@ -57,7 +58,9 @@ cd ../docker
 
 ./build.sh
 ```
+
 ![docker_build.png](images%2Fdocker_build.png)
+
 This takes about 5 minutes and goes directly into  tailing the spark container's logs.
 
 ### Step 4: Validation
