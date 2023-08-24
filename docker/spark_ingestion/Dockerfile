@@ -2,12 +2,12 @@
 FROM ubuntu:latest
 
 # Set environment variables
-ENV AWS_PROFILE=bsisandbox
+ENV AWS_PROFILE=<AWS_PROFILE>
 ENV DEBEZIUM_VERSION=noninteractive
 ENV SPARK_VERSION=3.4.1
 
 # Set the S3 bucket name from the terraform output
-ENV S3_BUCKET=aws-s3-mountpoint-apache-spark-qsf7
+ENV S3_BUCKET=<BUCKET_NAME>
 ENV MOUNT_PATH=/mount_s3
 
 # Install system dependencies

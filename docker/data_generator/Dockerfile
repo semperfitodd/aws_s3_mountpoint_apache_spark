@@ -2,11 +2,11 @@
 FROM ubuntu:latest
 
 # Set environment variables
-ENV AWS_PROFILE=bsisandbox
+ENV AWS_PROFILE=<AWS_PROFILE>
 ENV DEBEZIUM_VERSION=noninteractive
 
 # Set the S3 bucket name from the terraform output
-ENV S3_BUCKET=aws-s3-mountpoint-apache-spark-qsf7
+ENV S3_BUCKET=<BUCKET_NAME>
 ENV MOUNT_PATH=/mount_s3
 
 RUN ln -fs /usr/share/zoneinfo/UTC /etc/localtime && \
